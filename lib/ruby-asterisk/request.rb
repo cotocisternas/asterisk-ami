@@ -25,7 +25,7 @@ module RubyAsterisk
     protected
 
     def self.generate_action_id
-      Process.clock_gettime(Process::CLOCK_REALTIME, :nanosecond).to_s(36)
+      SecureRandom.uuid
     end
   end
 end

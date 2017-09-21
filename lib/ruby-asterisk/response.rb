@@ -10,10 +10,10 @@ module RubyAsterisk
 
     def initialize(type,response)
       self.raw_response = response
-      self.type = type
-      self.action_id = self._parse_action_id
-      self.message = self._parse_message
-      self.data = self._parse_response
+      self.type         = type
+      self.action_id    = self._parse_action_id
+      self.message      = self._parse_message
+      self.data         = self._parse_response
     end
 
     def success
