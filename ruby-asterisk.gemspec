@@ -24,4 +24,6 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'rspec'
   s.add_development_dependency 'simplecov'
   s.add_development_dependency 'quality'
+  
+  s.add_dependency 'net-telnet', '~> 0.1.1'
 end
